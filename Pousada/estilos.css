@@ -1,0 +1,273 @@
+body {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	margin: 0;
+	padding-bottom: 60px;
+	position: relative;
+}
+
+/* -------------------------------------Menu------------------------------------- */
+
+header ul {
+	list-style: none;
+	background-color: rgb(129, 165, 0); 
+	margin: 0;
+	padding: 5px 0;
+	text-align: right;
+	border-bottom: solid 6px rgb(78, 121, 0);
+}
+
+#logo_topo {
+	height: 52px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-left: 30px;
+}
+
+#logo_topo img {
+	padding: 10px 0;
+    float: left;
+    height: 32px;
+    width: auto;
+}
+
+#room {
+	width: 100%;
+	display: block;
+	position: relative;
+}
+
+#room img {
+	width: 20%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    float: none;
+    padding: 10px 0;
+}
+.item_menu {
+	display: inline;
+}
+
+.item_menu a {
+	padding: 10px;
+	display: inline-block;
+	color: rgb(3, 3, 3);
+	text-decoration: none;
+    border-bottom: 3px solid transparent;  
+}
+
+.item_menu a:hover {
+	background-color: rgba(138, 255, 187, 0.322);
+    color: rgb(0, 0, 0);
+    border-bottom: 3px solid green;
+}
+
+
+
+
+/* ----------------------------------Imagens--------------------------------------- */
+
+body {
+    background-image: url(fundo.jpg);
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 5px rgb(129, 199, 0);
+}
+
+.recep {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+	border: solid 5px rgb(129, 199, 0);
+}
+article h1 {
+	font-size: 20pt;
+}
+
+/* ------------------------------------Textos------------------------------------------- */
+
+.bemvindo h1{
+    text-align: center;
+	color: rgb(0, 0, 0);
+	background-color: rgba(255, 255, 255, 0.438);
+	padding: 20px;
+	border: solid 1px rgb(129, 199, 0);
+}
+
+.texto {
+	background-color: rgba(255, 255, 255, 0.514);
+	padding: 20px;
+	border: solid 5px rgb(129, 199, 0);
+	font-size: 20pt
+}
+
+.texto2 {
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.568);
+	border: solid 5px rgb(129, 199, 0);
+	font-size: 16pt
+}
+
+/* ------------------------------------localização------------------------------------ */
+
+
+
+.endereco {	
+	background-color: rgb(129, 199, 0);
+	text-align: center;
+	margin-bottom: 0;
+	border: solid 5px rgba(74, 114, 0, 0.5);
+	
+}
+
+footer > iframe {
+	background-color: rgba(219, 142, 0, 0.075);	
+	border: solid 5px rgb(129, 199, 0);
+	width: 80%;
+	padding: 10px 10%;
+	height: 150px;
+}
+
+/* ===================================hospedagem===================================== */
+
+table {
+	background: rgba(255, 255, 255, 0.473);
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	border-bottom: solid 3px rgb(129, 199, 0);
+}
+
+#room {
+	width: 100%;
+	display: block;
+	position: relative;
+}
+
+#room img {
+	width: 40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    float: none;
+    padding: 10px 0;
+}
+
+th, td {
+	padding: 10px;
+}
+
+thead tr {
+	border-bottom: solid 3px rgb(129, 199, 0);
+}
+
+tbody tr {
+	transition: all linear 0.2s;
+}
+
+tbody tr:hover {
+	background-color: rgb(129, 199, 0);
+}
+
+tfoot {
+	background-color: rgb(129, 199, 0);
+	color: beige;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+}
+
+table tbody tr td:last-child {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 15pt;
+	color: #01db5c;
+	padding: 10px 15px;
+}
+
+table tbody tr:hover td:last-child {
+	color: rgb(0, 0, 0);
+}
+
+.titulo {
+	text-align: center;
+	background-color: rgba(129, 199, 0, 0.123);
+	border-top: solid 3px rgba(129, 199, 0, 0.692);
+	border-bottom: solid 3px rgba(129, 199, 0, 0.692);
+}
+
+table tbody tr td:first-child img {
+	width: 100%;
+}
+
+/*=====================================Reserva========================================= */
+
+
+article h1 {
+	text-align: center;
+}
+
+article > form {
+	font-size: 12pt;
+	width: 80%;
+    padding: 0 10%;
+    display: inline-block;
+    text-align: center;
+}
+
+article > form fieldset {
+	width: auto;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    border: 1px solid #333;
+    margin-bottom: 10px;
+}
+
+article > form fieldset p {
+	width: auto;
+	padding: 0;
+	margin: 7px 0;
+}
+
+#firstname, #lastname, #checkin, #checkout {
+	padding: 5px;
+    border: 1px solid #ddd;
+}
+
+article > form .box_formulario input {
+	padding: 10px 15px;
+	border: none;
+	background: #8fdb00;
+	border-right: solid 4px rgba(0, 0, 0, 0.219);
+	border-bottom: solid 4px rgba(0, 0, 0, 0.219);
+}
+article > form .box_formulario input:hover{
+	padding: 10px 15px;
+	border: none;
+	background: #cffd79f6;
+	border-right: solid 4px rgba(0, 0, 0, 0.219);
+	border-bottom: solid 4px rgba(0, 0, 0, 0.219);
+}
+
+/* -----------------------------------Receptivo---------------------------------------- */
+
+@media screen and (max-width: 480px) {
+	footer > iframe {
+		display: none;
+	}
+}
+
+
